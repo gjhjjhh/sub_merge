@@ -265,7 +265,7 @@ if __name__ == '__main__':
     for p in processes:
         p.join()
     random.shuffle(shared_list)
-    each_num = 512
+    each_num = 128
     thread_list = []
     t_num = len(shared_list) // each_num + 1
     for i in range(t_num):
