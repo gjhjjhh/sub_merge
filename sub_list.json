@@ -3,7 +3,7 @@
     "id": 0,
     "remarks": "20240302@",
     "site": "https://github.com/snakem982/proxypool",
-    "url": "",
+    "url": "https://raw.githubusercontent.com/hello-world-1989/cn-news/refs/heads/main/end-gfw-together|https://raw.githubusercontent.com/ccpthisbigdog/freedomchina/refs/heads/main/subdom.txt|https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/snippets/nodes.meta.yml|https://raw.githubusercontent.com/qianlima8888/autoClashProxy/refs/heads/main/list.yaml|https://raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml|https://raw.githubusercontent.com/zhangkaiitugithub/passcro/refs/heads/main/speednodes.txt|",
     "enabled": true
   },
   {
@@ -11,42 +11,42 @@
     "remarks": "xiaoji235",
     "site": "https://github.com/xiaoji235/airport-free",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 2,
     "remarks": "20240122",
     "site": "https://github.com/chengaopan/AutoMergePublicNodes",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 3,
     "remarks": "20240602",
     "site": "https://github.com/Surfboardv2ray/v2ray-worker-sub",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 4,
     "remarks": "snakem982/proxypool",
     "site": "https://github.com/snakem982/proxypool",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 5,
     "remarks": "20240602",
     "site": "https://github.com/0x24a/FreeNodes",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 6,
     "remarks": "20241019",
     "site": "https://github.com/free18/v2ray",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "remarks": "20240122",
     "site": "https://github.com/Huibq/TrojanLinks",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 9,
@@ -74,70 +74,70 @@
     "remarks": "20240824",
     "site": "https://github.com/mianfengyang/cfvpn",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 11,
     "remarks": "itxve/fetch-clash-node",
     "site": "https://github.com/itxve/fetch-clash-node",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 12,
     "remarks": "20240301",
     "site": "https://github.com/peasoft/NoMoreWalls",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 13,
     "remarks": "20241121",
     "site": "https://github.com/Barabama/FreeNodes",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 14,
     "remarks": "20240411",
     "site": "https://github.com/mheidari98/.proxy",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 15,
     "remarks": "20250327",
     "site": "https://github.com/wisebobo/clashNodes",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 16,
     "remarks": "20241222",
     "site": "https://github.com/ermaozi01/free_clash_vpn",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 17,
     "remarks": "20231122",
     "site": "https://github.com/xbuffer/ClashData",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 18,
     "remarks": "ermaozi/get_subscribe",
     "site": "https://github.com/ermaozi/get_subscribe",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 19,
     "remarks": "20241222",
     "site": "https://github.com/Flikify/getNode",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 20,
@@ -151,28 +151,28 @@
     "remarks": "20240429",
     "site": "https://github.com/FGWong/clash_config",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 22,
     "remarks": "20240528",
     "site": "https://github.com/vxiaov/free_proxy_ss",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 23,
     "remarks": "20240122",
     "site": "https://github.com/Mohammadgb0078/IRV2ray",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 24,
     "remarks": "20240122",
     "site": "https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 25,
@@ -186,49 +186,49 @@
     "remarks": "ronghuaxueleng/get_v2",
     "site": "https://github.com/ronghuaxueleng/get_v2",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 27,
     "remarks": "20250327",
     "site": "https://github.com/ugwd01bFwiza/ClashNodes",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 28,
     "remarks": "20250410",
     "site": "https://github.com/MrMohebi/xray-proxy-grabber-telegram",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 29,
     "remarks": "20250410",
     "site": "https://github.com/mai19950/clash_config",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 36,
     "remarks": "20240528",
     "site": "https://github.com/Ruk1ng001/freeSub",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 37,
     "remarks": "Pawdroid/Free-servers",
     "site": "https://github.com/Pawdroid/Free-servers",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 42,
     "remarks": "mahdibland/ShadowsocksAggregator",
     "site": "https://github.com/mahdibland/ShadowsocksAggregator",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 43,
@@ -242,27 +242,27 @@
     "remarks": "20240429",
     "site": "https://github.com/IrisGitHub/freeclashconfig",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 64,
     "remarks": "20240528",
     "site": "https://github.com/mfuu/v2ray",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 74,
     "remarks": "ts-sf/fly",
     "site": "https://github.com/ts-sf/fly",
     "url": "",
-    "enabled": true
+    "enabled": false
   },
   {
     "id": 85,
     "remarks": "e-miao/freeClash",
     "site": "https://github.com/e-miao/freeClash",
     "url": "",
-    "enabled": true
+    "enabled": false
   }
 ]
