@@ -9,9 +9,15 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: emigrate code
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.MY_GITHUB_TOKEN }}
+          fetch-depth: 0
+
       - name: install Python
         uses: actions/setup-python@v4
         with:
@@ -81,18 +87,19 @@ jobs:
       - name: Checkout clash2singbox repository
         uses: actions/checkout@v2
         with:
-          repository: yuan2pro/clash2singbox  # 替换为目标仓库的所有者和仓库名
-          path: ./clash2singbox  # 下载到当前目录
+          repository: yuan2pro/clash2singbox
+          path: ./clash2singbox
+          token: ${{ secrets.MY_GITHUB_TOKEN }}
 
       - name: List files in current directory
-        run: ls  # 列出当前目录中的文件
+        run: ls
 
       - name: Build Go program
         run: |
           cd ./clash2singbox
           go mod tidy
           cp -f ${{ env.CURRENT_DIR }}/singbox.json ./config.json.template
-          go build -o clash2singbox ./main.go  # 根据需要调整路径
+          go build -o clash2singbox ./main.go
           for file in ${{ env.CURRENT_DIR }}/sub/*.yaml; do
             filename=$(basename "$file")
             ./clash2singbox -i "$file" -o "${{ env.CURRENT_DIR }}/sub/${filename%.yaml}.json"
@@ -111,8 +118,9 @@ jobs:
           git add -f ./README.md
           git commit -m "$MSG"
 
-      - name: push
+      - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          # github_token: ${{ secrets.TOKEN }}
+          github_token: ${{ secrets.MY_GITHUB_TOKEN }}
           branch: main
+          force: true
