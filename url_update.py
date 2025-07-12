@@ -146,25 +146,7 @@ class update_url():
                 logging.info(f'Id {id} URL 无可用更新')
 
     def update(id):
-        if id == 0:
-            url_raw = ["https://raw.githubusercontent.com/snakem982/proxypool/main/source/nodelist.txt",
-                       "https://raw.githubusercontent.com/snakem982/proxypool/main/source/proxies.txt",
-                       "https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/subs"]
-            url_array = []
-            try:
-                for url in url_raw:
-                    response = requests.get(url, timeout=2)
-                    response.raise_for_status()  # 检查是否下载成功
-                    # 将每行的URL以|分割，并连接起来
-                    url_lines = response.text.split('\n')
-                    url_array.extend(url_lines)
-                url_update = '|'.join(url_array)
-                return [id, url_update]
-            except Exception as err:
-                logging.error(f"{err.args[0]}")
-                return [id, 404]
-
-        elif id == 43:
+        if id == 43:
             # remarks: v2raydy/v2ray, 将原链接更新至 https://https://raw.githubusercontent.com/v2raydy/v2ray/main/%MM-%(DD - 1)%str%1.txt
             # 得到当前日期前一天 https://blog.csdn.net/wanghuafengc/article/details/42458721
             # https://nodefree.org/dy/2023/02/20230205.yaml
