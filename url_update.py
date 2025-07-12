@@ -147,7 +147,7 @@ class update_url():
 
     def update(id):
         if id == 0:
-            url_raw = ["https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/subs"]
+            url_raw = ["https://raw.githubusercontent.com/gjhjjhh/sub_merge/refs/heads/main/anynode.txt"]
             url_array = []
             try:
                 for url in url_raw:
