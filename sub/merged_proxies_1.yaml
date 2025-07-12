@@ -1,88 +1,7 @@
 proxies:
-- name: 🇨🇦 CA | ⬇️ 27.47 MB/s
-  network: ws
-  port: 443
-  server: jquery.com
-  servername: rayan-karma.parvaneh.dpdns.org
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 60882caa-4e74-42a2-be70-220755fc1551
-  ws-opts:
-    headers:
-      Host: rayan-karma.parvaneh.dpdns.org
-    path: /?ed=2560
-- alpn:
-  - h2
-  - http/1.1
-  name: 🇨🇦 CA | ⬇️ 23.21 MB/s
-  network: ws
-  port: 443
-  server: 188.114.96.3
-  servername: GrOUPyoUnEs.PAGEs.DEv
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: e2d6455c-9846-4502-8394-16b8c1c07b68
-  ws-opts:
-    headers:
-      Host: GrOUPyoUnEs.PAGEs.DEv
-    path: /Orib1TRRDQo8XqMa?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇮 FI | ⬇️ 22.84 MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: e499f276e7bd6420
-  server: fin01-vlr01.tcp-reset-club.net
-  servername: hls-svod.itunes.apple.com
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8a9d20f7-21b5-4f31-a6bb-c93894388514
-- auth: edb97d47-60ed-4c39-a2ae-33002764009b
-  name: 🇩🇪 DE | ⬇️ 22.19 MB/s
-  password: edb97d47-60ed-4c39-a2ae-33002764009b
-  port: 30327
-  server: dg.yuanbaojc.site
-  skip-cert-verify: true
-  sni: dg.yuanbaojc.site
-  type: hysteria2
-- auth: 65a43b6e-19c5-4fab-b960-d110a07d66a4
-  name: 🇺🇸 US | ⬇️ 16.91 MB/s
-  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
-  port: 3234
-  server: 209.141.47.127
-  skip-cert-verify: true
-  type: hysteria2
-- auth: user15.SEFRlolpip192761
-  name: 🇩🇪 DE | ⬇️ 14.62 MB/s
-  obfs: salamander
-  obfs-password: mkv_SEfr-salamdash
-  password: user15.SEFRlolpip192761
-  port: 443
-  server: shade.zone1.center
-  skip-cert-verify: true
-  type: hysteria2
-- auth: wfbNl9ZVs8yjafitXo0MymVanqo
-  name: 🇸🇬 SG | ⬇️ 11.30 MB/s
-  password: wfbNl9ZVs8yjafitXo0MymVanqo
-  port: 3316
-  server: 52.221.249.130
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
 - alpn:
   - http/1.1
-  name: 🇨🇦 CA | ⬇️ 11.01 MB/s
+  name: 🇨🇦 CA | ⬇️ 25.69 MB/s
   network: ws
   port: 443
   server: 104.16.14.1
@@ -97,71 +16,13 @@ proxies:
     headers:
       Host: 5nrvx1irwfiyq8nqbaiztizua8t8xg0d.pages.dev
     path: /iqySBCJZh3v7AmTx?ed=2560
-- auth: 7fae5f8e-7963-4cbe-ae1a-31cd952573a2
-  name: 🇦🇪 AE | ⬇️ 10.16 MB/s
-  password: 7fae5f8e-7963-4cbe-ae1a-31cd952573a2
-  port: 55000
-  server: 139.185.36.59
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- name: 🇨🇦 CA | ⬇️ 9.81 MB/s
-  network: ws
-  port: 443
-  server: bestcf.030101.xyz
-  servername: xv6.jpmj.dpdns.org
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 897a4bec-26b8-11e8-94be-00505695472c
-  ws-opts:
-    headers:
-      Host: xv6.jpmj.dpdns.org
-    path: /bbs?ed=2048
-- auth: Telegram-->@Ln2Ray
-  name: 🇳🇱 NL | ⬇️ 9.09 MB/s
-  obfs: salamander
-  obfs-password: Telegram-->@Ln2Ray
-  password: Telegram-->@Ln2Ray
-  port: 45000
-  server: gavazn.lnmarketplace.net
-  skip-cert-verify: true
-  sni: gavazn.55994421.xyz
-  type: hysteria2
-- name: 🇦🇹 AT | ⬇️ 5.42 MB/s
-  network: ws
-  port: 2087
-  server: 212.183.88.29
-  servername: PosTWARE-2jm.pagEs.DeV
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
-  ws-opts:
-    headers:
-      Host: PosTWARE-2jm.pagEs.DeV
-    path: /sA7GzJhCYXmpVes8?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺 RU | ⬇️ 24.53 MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ
-    short-id: 0f917152a871e9c0
-  server: a.ru.maviks.ru
-  servername: maviks.ru
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: e5c31f13-b10a-4e9c-bfa6-09454bc5e65c
-- name: 🇦🇹 AT | ⬇️ 22.70 MB/s
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US | ⬇️ 23.83 MB/s
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: beesyar.org
+  type: ss
+- name: 🇦🇹 AT | ⬇️ 13.83 MB/s
   network: ws
   port: 2096
   server: 212.183.88.29
@@ -176,15 +37,76 @@ proxies:
     headers:
       Host: pOStWArE-2Jm.PAgEs.dEv
     path: /ssqKt5JYIXEwDOMJ?ed=2560
+- auth: yoP8tOtEhMTSBUPY9LwnHABvFE
+  name: 🇸🇬 SG | ⬇️ 13.68 MB/s
+  password: yoP8tOtEhMTSBUPY9LwnHABvFE
+  port: 14933
+  server: 18.136.211.127
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- client-fingerprint: firefox
+  name: 🇻🇳 VN | ⬇️ 11.62 MB/s
+  network: tcp
+  port: 34045
+  reality-opts:
+    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+    short-id: e8ab71d0
+  server: 59.153.218.14
+  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+- name: 🇨🇦 CA | ⬇️ 35.72 MB/s
+  network: ws
+  port: 80
+  server: 104.17.147.22
+  servername: redfree8.pooriashop.ir
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redfree8.pooriashop.ir
+    path: /Telegram@V2ray_Alpha/?ed=2560
 - auth: 27e473f8-d610-4b04-bdf7-d0c39b47c897
-  name: 🇺🇸 US | ⬇️ 22.06 MB/s
+  name: 🇺🇸 US | ⬇️ 29.95 MB/s
   password: 27e473f8-d610-4b04-bdf7-d0c39b47c897
   port: 45000
   server: 23.80.81.213
   skip-cert-verify: true
   sni: www.apple.com
   type: hysteria2
-- name: 🏳️ IR | ⬇️ 13.53 MB/s
+- auth: dongtaiwang.com
+  name: 🇳🇱 NL | ⬇️ 14.39 MB/s
+  password: dongtaiwang.com
+  port: 10011
+  server: 163.172.217.10
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: 🇺🇸 US | ⬇️ 11.65 MB/s
+  network: ws
+  port: 8880
+  server: 160.79.104.251
+  servername: cf.d3z.net
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳تعداد
+- name: 🏳️ IR | ⬇️ 9.10 MB/s
   network: ws
   port: 80
   server: 45.131.4.147
@@ -199,115 +121,28 @@ proxies:
     headers:
       Host: redfree8.pooriashop.ir
     path: /Telegram🇨🇳@v/?ed=2560
-- alpn:
-  - h3
-  name: 🇨🇦 CA | ⬇️ 13.37 MB/s
-  network: ws
-  port: 443
-  server: 104.16.243.59
-  servername: NGINX.NSCl.IR
+- auth: 65a43b6e-19c5-4fab-b960-d110a07d66a4
+  name: 🇺🇸 US | ⬇️ 73.16 MB/s
+  password: 65a43b6e-19c5-4fab-b960-d110a07d66a4
+  port: 3234
+  server: 209.141.47.127
   skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75fde681-ec64-4654-86fa-30732e8e179c
-  ws-opts:
-    headers:
-      Host: nginx.nscl.ir
-    path: /config-proxy-free--Telegram--config-proxy-free--Telegram--config-proxy-free--Telegram--config-proxy-free--Telegram--config-proxy-free--Telegram--config-proxy-free
-- name: 🇨🇦 CA | ⬇️ 12.38 MB/s
-  network: ws
-  port: 443
-  server: digitalocean.com
-  servername: rayan-olala.parvaneh.dpdns.org
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 60882caa-4e74-42a2-be70-220755fc1551
-  ws-opts:
-    headers:
-      Host: rayan-olala.parvaneh.dpdns.org
-    path: /?ed=2560
-- auth: j763tbNXzLo729FcW6m6I37M0z4
-  name: 🇸🇬 SG | ⬇️ 10.93 MB/s
-  password: j763tbNXzLo729FcW6m6I37M0z4
-  port: 20813
-  server: 18.142.225.223
-  skip-cert-verify: true
-  sni: bing.com
   type: hysteria2
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 100
-  fast-open: true
-  name: 🇫🇷 FR | ⬇️ 10.85 MB/s
-  port: 15010
-  server: 195.154.200.40
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 100
-- name: 🇺🇸 US | ⬇️ 10.55 MB/s
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA | ⬇️ 26.35 MB/s
   network: ws
-  port: 8880
-  server: 160.79.104.251
-  servername: cf.d3z.net
+  port: 80
+  server: aAZXsdE.003330333.xYZ
   skip-cert-verify: true
-  tfo: true
   tls: false
-  type: vless
-  udp: true
-  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  type: vmess
+  uuid: 10b1e371-d734-4306-b67f-0fc1f95c2485
   ws-opts:
     headers:
-      Host: cf.d3z.net
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-- auth: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
-  name: 🇬🇧 GB | ⬇️ 32.25 MB/s
-  password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
-  port: 30000
-  server: 79.72.81.183
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: hysteria2
-- name: 🇺🇸 US | ⬇️ 32.25 MB/s
-  network: ws
-  port: 443
-  server: 69.84.182.2
-  servername: pages.dev
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5879d109-8c92-448a-801b-3f3989019934
-  ws-opts:
-    headers:
-      Host: free-palestine.pages.dev
-    path: /Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048
-- alpn:
-  - http/1.1
-  name: 🇨🇦 CA | ⬇️ 28.48 MB/s
-  network: ws
-  port: 2053
-  server: 188.114.97.183
-  servername: nOCTYq.pAGES.DEV
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb568786-bb3f-4f02-a25c-7183e800a0ba
-  ws-opts:
-    headers:
-      Host: nOCTYq.pAGES.DEV
-    path: /bPJ4mgkJbA7CnY7q?ed=2560
-- name: 🇨🇦 CA | ⬇️ 28.45 MB/s
+      Host: aazxsde.003330333.xyz
+    path: /SXjq8YlnGNBlbnEsM
+- name: 🇨🇦 CA | ⬇️ 23.90 MB/s
   network: ws
   port: 443
   server: 104.16.34.128
@@ -322,96 +157,134 @@ proxies:
     headers:
       Host: ensHOLP-91s.pageS.DEv
     path: /dQMN2VQLkaE52qWD?ed=2560
-- alpn:
-  - http/1.1
-  name: 🇨🇦 CA | ⬇️ 22.67 MB/s
+- name: 🇨🇦 CA | ⬇️ 17.92 MB/s
   network: ws
-  port: 8443
-  server: 188.114.96.3
-  servername: w325.pAges.Dev
+  port: 443
+  server: digitalocean.com
+  servername: rayan-olala.parvaneh.dpdns.org
   skip-cert-verify: true
   tfo: true
   tls: true
   type: vless
   udp: true
-  uuid: 88d05a33-ff36-415d-9d2c-7e1e8468e7e8
+  uuid: 60882caa-4e74-42a2-be70-220755fc1551
   ws-opts:
     headers:
-      Host: w325.pages.dev
-    path: /6WKNgcKo7LMqOzhb?ed=2560
+      Host: rayan-olala.parvaneh.dpdns.org
+    path: /?ed=2560
+- name: 🇨🇦 CA | ⬇️ 17.30 MB/s
+  network: ws
+  port: 443
+  server: jquery.com
+  servername: rayan-karma.parvaneh.dpdns.org
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 60882caa-4e74-42a2-be70-220755fc1551
+  ws-opts:
+    headers:
+      Host: rayan-karma.parvaneh.dpdns.org
+    path: /?ed=2560
+- auth: edb97d47-60ed-4c39-a2ae-33002764009b
+  name: 🇩🇪 DE | ⬇️ 15.69 MB/s
+  password: edb97d47-60ed-4c39-a2ae-33002764009b
+  port: 30327
+  server: dg.yuanbaojc.site
+  skip-cert-verify: true
+  sni: dg.yuanbaojc.site
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇮 FI | ⬇️ 15.33 MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: e499f276e7bd6420
+  server: fin01-vlr01.tcp-reset-club.net
+  servername: hls-svod.itunes.apple.com
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8a9d20f7-21b5-4f31-a6bb-c93894388514
+- name: 🏳️ IR | ⬇️ 15.32 MB/s
+  network: ws
+  port: 80
+  server: 45.131.4.20
+  servername: redfree8.pooriashop.ir
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  ws-opts:
+    headers:
+      Host: redfree8.pooriashop.ir
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+- auth: OcRI3eUwnxShJY8VBmlaoaJZy8w
+  name: 🇸🇬 SG | ⬇️ 15.00 MB/s
+  password: OcRI3eUwnxShJY8VBmlaoaJZy8w
+  port: 17963
+  server: 52.221.182.192
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA | ⬇️ 11.10 MB/s
+  network: ws
+  port: 443
+  server: 3EEEeE.999824.xyZ
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711
+  ws-opts:
+    headers:
+      Host: 3EEEeE.999824.xyZ
+    path: /9dZlJLjHHrL0VwSolbqFpg
 - alpn:
   - h3
-  name: 🇨🇦 CA | ⬇️ 12.37 MB/s
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 100
+  fast-open: true
+  name: 🇫🇷 FR | ⬇️ 10.76 MB/s
+  port: 15010
+  server: 195.154.200.40
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 100
+- auth: dongtaiwang.com
+  name: 🇫🇷 FR | ⬇️ 7.16 MB/s
+  password: dongtaiwang.com
+  port: 31180
+  server: 51.159.111.32
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- name: 🇺🇸 US | ⬇️ 70.69 MB/s
   network: ws
-  port: 443
-  server: 104.16.243.59
-  servername: NGINX.NSCl.IR
+  port: 8880
+  server: 147.185.161.251
+  servername: Telegram-channel-WangCai2
   skip-cert-verify: true
   tfo: true
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: 75fde681-ec64-4654-86fa-30732e8e179c
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
   ws-opts:
     headers:
-      Host: nginx.nscl.ir
-    path: /config-proxy-free--Telegram--config-proxy-free--Telegram--config-proxy-free--Telegram--config-proxy-free--Telegram--config-proxy-free--Telegram--config-proxy-free?ed=2560
-- auth: dkuKzeCa8NfCZ1dJ2t2HPOzLZZo
-  name: 🇸🇬 SG | ⬇️ 11.32 MB/s
-  password: dkuKzeCa8NfCZ1dJ2t2HPOzLZZo
-  port: 16027
-  server: 13.213.33.141
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-- auth: 71iDmmpfZrblIGPsnWmRIvOmjsM
-  name: 🇸🇬 SG | ⬇️ 11.25 MB/s
-  password: 71iDmmpfZrblIGPsnWmRIvOmjsM
-  port: 14988
-  server: 54.255.243.99
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-- auth: user10.khobbebinSEFRinjast128161
-  name: 🇸🇬 SG | ⬇️ 10.84 MB/s
-  obfs: salamander
-  obfs-password: The_Sefr-chibegam
-  password: user10.khobbebinSEFRinjast128161
-  port: 443
-  server: lake.zone1.center
-  skip-cert-verify: true
-  type: hysteria2
-- client-fingerprint: firefox
-  name: 🇻🇳 VN | ⬇️ 9.52 MB/s
-  network: tcp
-  port: 34045
-  reality-opts:
-    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-    short-id: e8ab71d0
-  server: 59.153.218.14
-  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-- client-fingerprint: firefox
-  name: 🇻🇳 VN | ⬇️ 5.22 MB/s
-  network: tcp
-  port: 34045
-  reality-opts:
-    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-    short-id: e8ab71d0
-  server: 103.12.77.191
-  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-- name: 🇺🇸 US | ⬇️ 54.88 MB/s
+      Host: cf.d3z.net
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- name: 🇺🇸 US | ⬇️ 42.05 MB/s
   network: ws
   port: 8880
   server: 160.79.104.251
@@ -428,7 +301,7 @@ proxies:
     path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🏳️ AL | ⬇️ 37.15 MB/s
+  name: 🏳️ AL | ⬇️ 20.89 MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -442,76 +315,37 @@ proxies:
   type: vless
   udp: true
   uuid: 10f3650d-32f6-470a-b100-e29471cf3380
-- name: 🇺🇸 US | ⬇️ 33.92 MB/s
-  network: ws
-  port: 8880
-  server: 147.185.161.251
-  servername: Telegram-channel-WangCai2
+- auth: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
+  name: https://t.me/V2ry_Proxy
+  password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
+  port: 30000
+  server: 79.72.81.183
   skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  ws-opts:
-    headers:
-      Host: cf.d3z.net
-    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-- name: 🇦🇹 AT | ⬇️ 28.70 MB/s
-  network: ws
-  port: 2083
-  server: 212.183.88.29
-  servername: PoStwarE-2jM.PaGeS.DEv
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
-  ws-opts:
-    headers:
-      Host: PoStwarE-2jM.PaGeS.DEv
-    path: /PB8ZxcORP4BTVbIC?ed=2560
-- name: 🇨🇦 CA | ⬇️ 18.21 MB/s
-  network: ws
-  port: 80
-  server: 104.17.147.22
-  servername: redfree8.pooriashop.ir
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  ws-opts:
-    headers:
-      Host: redfree8.pooriashop.ir
-    path: /Telegram@V2ray_Alpha/?ed=2560
-- name: 🇨🇷 CR | ⬇️ 16.88 MB/s
-  network: ws
-  port: 443
-  server: 190.93.244.103
-  servername: mylearn-8zx.pages.dev
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: d4661d12-d6f7-4ff2-bd1e-fc9cdc2c9cc1
-  ws-opts:
-    headers:
-      Host: mylearn-8zx.pages.dev
-    path: /
-- auth: user10.thisismeSUperkl19201
-  name: 🇩🇪 DE | ⬇️ 15.31 MB/s
-  obfs: salamander
-  obfs-password: mkv_SEfr-salamdash
-  password: user10.thisismeSUperkl19201
-  port: 443
-  server: shade.zone1.center
-  skip-cert-verify: true
+  sni: www.apple.com
   type: hysteria2
-- name: 🇨🇦 CA | ⬇️ 13.36 MB/s
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国【机场推荐：https://a0a.xyz/】58
+  network: ws
+  port: 443
+  server: sssssssxxxx.2032.pp.ua
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+  ws-opts:
+    headers:
+      Host: sssssssxxxx.2032.pp.ua
+    path: /6We3U9Df1WGxgFnoFPw1
+- auth: dkuKzeCa8NfCZ1dJ2t2HPOzLZZo
+  name: 🇺🇸 美国-13
+  password: dkuKzeCa8NfCZ1dJ2t2HPOzLZZo
+  port: 16027
+  server: 13.213.33.141
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- name: US_speednode_0133
   network: ws
   port: 2053
   server: 104.16.34.128
@@ -526,7 +360,345 @@ proxies:
     headers:
       Host: EnSHoLP-91s.paGES.dev
     path: /Ye3vH0FBXeZWh4zV?ed=2560
-- name: 🇧🇿 BZ | ⬇️ 11.56 MB/s
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国【机场推荐：https://a0a.xyz/】65
+  network: ws
+  port: 443
+  server: EeR4567.999824.xYz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711
+  ws-opts:
+    headers:
+      Host: EeR4567.999824.xYz
+    path: /9dZlJLjHHrL0VwSolbqFpg
+- auth: JSC7GnvDM4mIitnCZXQo8IKSPs
+  name: 🇸🇬 新加坡-5
+  password: JSC7GnvDM4mIitnCZXQo8IKSPs
+  port: 29713
+  server: 13.250.121.168
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- client-fingerprint: firefox
+  name: VN_speednode_0184
+  network: tcp
+  port: 34045
+  reality-opts:
+    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+    short-id: e8ab71d0
+  server: 59.153.217.57
+  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+- name: 🇺🇸 US | ⬇️ 31.20 MB/s
+  network: ws
+  port: 443
+  server: 69.84.182.2
+  servername: pages.dev
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5879d109-8c92-448a-801b-3f3989019934
+  ws-opts:
+    headers:
+      Host: free-palestine.pages.dev
+    path: /Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048
+- name: 🇯🇵 JP | ⬇️ 18.60 MB/s
+  network: ws
+  port: 8880
+  server: 154.197.80.251
+  servername: Telegram-channel-WangCai2
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- auth: wfbNl9ZVs8yjafitXo0MymVanqo
+  name: 🇸🇬 SG | ⬇️ 14.46 MB/s
+  password: wfbNl9ZVs8yjafitXo0MymVanqo
+  port: 3316
+  server: 52.221.249.130
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- alpn:
+  - http/1.1
+  name: 🇨🇦 CA | ⬇️ 13.90 MB/s
+  network: ws
+  port: 8443
+  server: 188.114.96.3
+  servername: w325.pAges.Dev
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88d05a33-ff36-415d-9d2c-7e1e8468e7e8
+  ws-opts:
+    headers:
+      Host: w325.pages.dev
+    path: /6WKNgcKo7LMqOzhb?ed=2560
+- client-fingerprint: firefox
+  name: 🇻🇳 VN | ⬇️ 12.69 MB/s
+  network: tcp
+  port: 34045
+  reality-opts:
+    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+    short-id: e8ab71d0
+  server: 59.153.216.133
+  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+- auth: user10.khobbebinSEFRinjast128161
+  name: 🇸🇬 SG | ⬇️ 11.72 MB/s
+  obfs: salamander
+  obfs-password: The_Sefr-chibegam
+  password: user10.khobbebinSEFRinjast128161
+  port: 443
+  server: lake.zone1.center
+  skip-cert-verify: true
+  type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  name: 🇨🇦 CA | ⬇️ 10.49 MB/s
+  network: ws
+  port: 443
+  server: 188.114.96.3
+  servername: GrOUPyoUnEs.PAGEs.DEv
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e2d6455c-9846-4502-8394-16b8c1c07b68
+  ws-opts:
+    headers:
+      Host: GrOUPyoUnEs.PAGEs.DEv
+    path: /Orib1TRRDQo8XqMa?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA | ⬇️ 10.41 MB/s
+  network: ws
+  port: 443
+  server: EeedcFvg.999824.xYZ
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711
+  ws-opts:
+    headers:
+      Host: EeedcFvg.999824.xYZ
+    path: /9dZlJLjHHrL0VwSolbqFpg
+- auth: dongtaiwang.com
+  name: 🇺🇸 US | ⬇️ 9.17 MB/s
+  password: dongtaiwang.com
+  port: 4710
+  server: 108.181.5.130
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria2
+- alpn:
+  - http/1.1
+  name: 🇨🇦 CA | ⬇️ 28.67 MB/s
+  network: ws
+  password: 07a3df8f-2a2c-42f8-ad92-65889d90f3bf
+  port: 443
+  server: 104.21.26.17
+  skip-cert-verify: true
+  sni: rrrRrRRrT.459.pp.ua
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: rrrRrRRrT.459.pp.ua
+    path: /znQImc22ijDwVOkZfoq
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US | ⬇️ 27.83 MB/s
+  network: ws
+  port: 443
+  server: sSsdCVfBGNjkI.931.PP.Ua
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e
+  ws-opts:
+    headers:
+      Host: sSsdCVfBGNjkI.931.PP.Ua
+    path: /14Fziqw1hYgCXNutkS5H
+- alpn:
+  - http/1.1
+  name: 🇨🇦 CA | ⬇️ 21.47 MB/s
+  network: ws
+  port: 2053
+  server: 188.114.97.183
+  servername: nOCTYq.pAGES.DEV
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb568786-bb3f-4f02-a25c-7183e800a0ba
+  ws-opts:
+    headers:
+      Host: nOCTYq.pAGES.DEV
+    path: /bPJ4mgkJbA7CnY7q?ed=2560
+- auth: 71iDmmpfZrblIGPsnWmRIvOmjsM
+  name: 🇸🇬 SG | ⬇️ 13.95 MB/s
+  password: 71iDmmpfZrblIGPsnWmRIvOmjsM
+  port: 14988
+  server: 54.255.243.99
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 100
+  fast-open: true
+  name: 🇫🇷 FR | ⬇️ 10.72 MB/s
+  port: 14241
+  protocol: udp
+  server: 51.159.226.1
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 100
+- auth: j763tbNXzLo729FcW6m6I37M0z4
+  name: 🇸🇬 SG | ⬇️ 10.49 MB/s
+  password: j763tbNXzLo729FcW6m6I37M0z4
+  port: 20813
+  server: 18.142.225.223
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA | ⬇️ 6.77 MB/s
+  network: ws
+  port: 80
+  server: 104.21.57.206
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3d9741da-c0e4-47cc-a5e0-f1af3d337dae
+  ws-opts:
+    headers:
+      Host: sssssssssssdddfgt.4444926.xyz
+    path: /U2Z0FoBkgtZqfwAwY2SNm
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US | ⬇️ 22.96 MB/s
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.188
+  type: ss
+- name: 🇺🇸 US | ⬇️ 20.30 MB/s
+  network: ws
+  port: 8880
+  server: 160.79.104.251
+  servername: cf.d3z.net
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US | ⬇️ 17.02 MB/s
+  network: ws
+  port: 443
+  server: wWWwwWWw2.444652.XYz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711
+  ws-opts:
+    headers:
+      Host: wWWwwWWw2.444652.XYz
+    path: /9dZlJLjHHrL0VwSolbqFpg
+- client-fingerprint: randomized
+  name: 🇫🇷 FR | ⬇️ 14.56 MB/s
+  network: ws
+  port: 8080
+  server: 141.101.121.224
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: 1750293123492.china.baidu.bilibili.china.aeko.cn
+    path: /?ed=2048
+- name: 🇦🇹 AT | ⬇️ 10.91 MB/s
+  network: ws
+  port: 2087
+  server: 212.183.88.29
+  servername: PosTWARE-2jm.pagEs.DeV
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
+  ws-opts:
+    headers:
+      Host: PosTWARE-2jm.pagEs.DeV
+    path: /sA7GzJhCYXmpVes8?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: randomized
+  name: 🇨🇦 CA | ⬇️ 10.45 MB/s
+  network: ws
+  port: 443
+  server: 104.16.3.5
+  servername: gulf-d96.pages.dev
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 963816bd-b6e7-4648-abff-8af25bc07d87
+  ws-opts:
+    headers:
+      Host: gulf-d96.pages.dev
+    path: /ecY3gziM8W6ud5yj?ed=2560
+- auth: user10.thisismeSUperkl19201
+  name: 🇩🇪 DE | ⬇️ 10.08 MB/s
+  obfs: salamander
+  obfs-password: mkv_SEfr-salamdash
+  password: user10.thisismeSUperkl19201
+  port: 443
+  server: shade.zone1.center
+  skip-cert-verify: true
+  type: hysteria2
+- name: 🇧🇿 BZ | ⬇️ 9.06 MB/s
   network: ws
   port: 80
   server: 45.131.6.231
@@ -541,30 +713,69 @@ proxies:
     headers:
       Host: redfree8.pooriashop.ir
     path: /Telegram@WangCai2
-- auth: yoP8tOtEhMTSBUPY9LwnHABvFE
-  name: 🇸🇬 SG | ⬇️ 11.37 MB/s
-  password: yoP8tOtEhMTSBUPY9LwnHABvFE
-  port: 14933
-  server: 18.136.211.127
+- name: 🇦🇹 AT | ⬇️ 8.22 MB/s
+  network: ws
+  port: 2083
+  server: 212.183.88.29
+  servername: PoStwarE-2jM.PaGeS.DEv
   skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-- auth: OcRI3eUwnxShJY8VBmlaoaJZy8w
-  name: 🇸🇬 SG | ⬇️ 11.33 MB/s
-  password: OcRI3eUwnxShJY8VBmlaoaJZy8w
-  port: 17963
-  server: 52.221.182.192
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
+  ws-opts:
+    headers:
+      Host: PoStwarE-2jM.PaGeS.DEv
+    path: /PB8ZxcORP4BTVbIC?ed=2560
+- name: 🇯🇵 JP | ⬇️ 18.95 MB/s
+  network: ws
+  port: 8880
+  server: 154.197.80.251
+  servername: Telegram-channel-WangCai2
   skip-cert-verify: true
-  sni: bing.com
+  tfo: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  ws-opts:
+    headers:
+      Host: cf.d3z.net
+    path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU | ⬇️ 16.14 MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: cGzNRbN_zruI3CVTDukB2nOqWWEj7kgkay24f2fdLmQ
+    short-id: 0f917152a871e9c0
+  server: a.ru.maviks.ru
+  servername: maviks.ru
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e5c31f13-b10a-4e9c-bfa6-09454bc5e65c
+- auth: user15.SEFRlolpip192761
+  name: 🇩🇪 DE | ⬇️ 12.51 MB/s
+  obfs: salamander
+  obfs-password: mkv_SEfr-salamdash
+  password: user15.SEFRlolpip192761
+  port: 443
+  server: shade.zone1.center
+  skip-cert-verify: true
   type: hysteria2
 - client-fingerprint: firefox
-  name: 🇻🇳 VN | ⬇️ 10.84 MB/s
+  name: 🇻🇳 VN | ⬇️ 6.79 MB/s
   network: tcp
   port: 34045
   reality-opts:
     public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
     short-id: e8ab71d0
-  server: 59.153.216.133
+  server: 103.12.77.191
   servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
   skip-cert-verify: true
   tfo: true
@@ -572,14 +783,14 @@ proxies:
   type: vless
   udp: true
   uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-- client-fingerprint: chrome
-  name: 🇻🇳 VN | ⬇️ 5.28 MB/s
+- client-fingerprint: firefox
+  name: 🇻🇳 VN | ⬇️ 6.35 MB/s
   network: tcp
   port: 34045
   reality-opts:
     public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
     short-id: e8ab71d0
-  server: 160.250.65.124
+  server: 103.81.84.57
   servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
   skip-cert-verify: true
   tfo: true
